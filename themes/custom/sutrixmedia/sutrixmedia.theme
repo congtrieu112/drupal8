@@ -1,0 +1,9 @@
+<?php
+function sutrixmedia_preprocess_html(&$variables){
+  $variables['tempale_root'] = drupal_get_path('theme','sutrixmedia');
+  $variables['classes_array'][] =  $variables['is_front'] ? "home" : "";
+}
+
+function sutrixmedia_preprocess_page(&$variables){
+  $variables['tempale_root'] = drupal_get_path('theme','sutrixmedia');
+}

@@ -1,0 +1,10 @@
+global-css:
+  css:
+    theme:
+      tempaltes/css/style.css: {}
+
+global-js:
+  js:
+    templates/js/main.js: {}
+  dependencies:
+    - core/jquery
